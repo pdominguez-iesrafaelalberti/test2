@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>CSS básico</title>
+</head>
+<body>
+ 
+    <div id="container">
+        <header><h1>Ajedrez</h1></header>
+
+        <nav>
+            
+            <ul>
+                <li> <a href="">Inicio</a></li>
+                <li> <a href="">Piezas</a></li>
+                <li> <a href="#valores">Valores de las piezas</a></li>
+                <li> <a href="">Blog</a></li>
+                <li> <a href="#contacto">Contacto</a></li>
+
+              
+            </ul>
+        </nav>
+        <div class="clearfix"></div>
+        <section id="content">
+
+            <article class="article" id="piezas">
+                <h2>Piezas</h2>
+               
+                <ul>
+                    <li>Peón</li>
+                    <li>Alfil</li>
+                    <li>Caballo</li>
+                    <li>Torre</li>
+                    <li>Reina</li>
+                    <li>Rey</li>
+                </ul>
+            </article>
+            <article class="article">
+                <h2>Vídeo</h2>
+                <div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Ob1Ar6j74W0" allowfullscreen></iframe>
+                  </div>
+            </article>
+            <article class="article">
+                <h2>Articulo 2</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam at, doloremque necessitatibus est amet voluptate repellendus neque. Maxime pariatur porro nostrum atque placeat! Nam provident deserunt neque, dicta aspernatur itaque.</p>
+            </article>
+            <article class="article" id="valores">
+                <h2>Valor</h2>
+                                
+                    <table>
+                        <tr>
+                        <th>Pieza</th>
+                        <th>Valor</th>
+                        </tr>
+
+                        <tr>
+                            <td>Dama</td>
+                            <td>10</td>
+                            <td><img class="pieza" src="images/queen.png" alt="reina"></td>
+                            </tr>
+                           
+                        <tr>
+                        <td>Torre</td>
+                        <td>5</td>
+                        <td><img class="pieza"  src="images/queen.png" alt="reina"></td>
+                        </tr>
+                        <tr>
+                            <td>Peón</td>
+                            <td>1</td>
+                           <td><img class="pieza"  src="images/peon.png" alt="reina"></td>
+                            </tr>
+                    </table>
+            </article>
+
+            <article id="contacto"  class="article">
+                <h2>Articulo 2</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam at, doloremque necessitatibus est amet voluptate repellendus neque. Maxime pariatur porro nostrum atque placeat! Nam provident deserunt neque, dicta aspernatur itaque.</p>
+            </article>
+
+
+        </section>
+
+
+        <aside>
+            <h2>Barra lateral</h2>
+            <form action="https://duckduckgo.com">
+                <input type="text" name="q">
+                <input type="submit" value="Buscar">
+            </form>
+        </aside>
+        <div class="clearfix"></div>
+        <footer>
+                pie de página
+        </footer>
+    
+    </div>
+
+
+</body>
+</html>
